@@ -20,7 +20,7 @@ else:
         if linha == lin and coluna == col:
           if jogo[linha][coluna] != jogador:
             erro = True
-         elif jogo[linha][coluna] != '.':
+        elif jogo[linha][coluna] != '.':
            erro = True
 if erro:
   print('Erro!')
